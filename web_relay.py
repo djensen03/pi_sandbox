@@ -23,7 +23,7 @@ def index():
 
 try:
     print("I'm here")
-    run(host='0.0.0.0', port=80)
+    run(host='0.0.0.0', port=83)
 finally:  
     print('Cleaning up GPIO')
     GPIO.cleanup()
