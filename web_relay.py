@@ -18,7 +18,7 @@ def index():
 @route('/off')
 def index():
     GPIO.output(CONTROL_PIN, False)
-    return template('home.tpl')    
+    return template('off.tpl')
         
 
 try:
