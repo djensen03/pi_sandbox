@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
-led_pin = 18
+led_pin = 4
 GPIO.setup(led_pin, GPIO.OUT)
 try:
     while True:
