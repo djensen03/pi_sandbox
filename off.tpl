@@ -1,5 +1,5 @@
 <html>
-	<body background-color: #F60445;
+	<body bgcolor="black";
 >
 
 		<h1>Web Relay</h1>
