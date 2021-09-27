@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BOARD)
-led_pin = 4
+led_pin = 7
 GPIO.setup(led_pin, GPIO.OUT)
 try:
     print(GPIO.RPI_INFO)
