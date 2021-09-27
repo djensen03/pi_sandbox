@@ -1,11 +1,13 @@
 import RPi.GPIO as GPIO
 
+
 import time
 
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 led_pin = 4
 GPIO.setup(led_pin, GPIO.OUT)
 try:
+    print(GPIO.RPI_INFO)
     print("turning on LED pin")
     while True:
         GPIO.output(led_pin, True)
