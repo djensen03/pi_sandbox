@@ -28,7 +28,7 @@ def index():
     if GPIO.input(pin2):
         return template('p1off_p2on.tpl')
     else:
-        return template('p1off_p2off.tpl')
+        return template('home.tpl')
 
 
 @route('/pin2_on')
@@ -46,7 +46,7 @@ def index():
     if GPIO.input(pin1):
         return template('p1on_p2off.tpl')
     else:
-        return template('p1off_p2off.tpl')
+        return template('home.tpl')
 
 try:
     print("I'm here")
