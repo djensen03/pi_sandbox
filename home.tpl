@@ -1,11 +1,19 @@
 <html>
-<body bgcolor = "green">
+	<body bgcolor="white";
+>
+		<h1>SYSTEM IS ON</h1>
 
-<h1>Dennis' Web Relay</h1>
+		<h1>Relay #1</h1>
 
-<a href="/on">ON</a>
+		<a href="/pin1_on">ON</a>
+		<p></p>
+		<a href="/pin1_off">OFF</a>
 
-<a href="/off">OFF</a>
 
-</body>
+		<h1>Relay #2</h1>
+		<a href="/pin2_on">ON</a>
+		<p></p>
+		<a href="/pin2_off">OFF</a>		
+
+	</body>
 </html>
