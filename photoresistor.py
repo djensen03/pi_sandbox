@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 from bottle import run
-readPIN = 31
+readPIN = 8
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
